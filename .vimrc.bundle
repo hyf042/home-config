@@ -11,6 +11,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-jp/cpp-vim'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'rhysd/vim-clang-format'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -20,4 +21,10 @@ filetype plugin indent on    " required
 let NERDTreeIgnore = ['\.o$', '\.so', '\.pyc$']
 let NERDTreeShowBookmarks=1
 nmap <F2> :NERDTreeToggle<cr>
+" }
+
+"clangFomrat {
+let g:clang_format#code_style = 'google'
+nmap <C-K> :ClangFormat<cr>
+vmap <C-K> :ClangFormat<cr>
 " }
