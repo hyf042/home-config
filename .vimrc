@@ -1,11 +1,11 @@
 ""View
 set nu 
 set ru 
-set cursorline 
+"set cursorline 
 set laststatus=2 
-set t_Co=256 
+"set t_Co=256 
 set colorcolumn=80
-"set showmatch
+set showmatch
 syntax on
 
 "Encoding
