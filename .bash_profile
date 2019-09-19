@@ -7,7 +7,7 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 # export PS1="\n\[\033[32m\]\u@\h \[\033[33m\]\$(parse_git_branch)\[\033[0m\]\n\$ "
-export PS1="\n\[\033[32m\]\u@\h \W\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+# export PS1="\n\[\033[32m\]\u@\h \W\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 export PS4='+{$LINENO:${FUNCNAME[0]}}'
 
 source ~/.bashrc
