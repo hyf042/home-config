@@ -6,6 +6,7 @@ set laststatus=2
 set t_Co=256 
 set colorcolumn=80
 set showmatch
+set backspace=indent,eol,start
 syntax on
 
 "Encoding
@@ -16,7 +17,7 @@ set termencoding=utf-8
 "Color Scheme
 syntax enable
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 
 " clipboard
 set pastetoggle=<F9>
